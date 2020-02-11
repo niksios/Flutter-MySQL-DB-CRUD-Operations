@@ -4,6 +4,7 @@ import 'package:http/http.dart'
 import 'Employee.dart';
  
 class Services {
+  //replace your domain name and php file name with yours
   static const ROOT = 'https://nikshahane003.000webhostapp.com/flutter_proj/employee_actions.php';
   //static const ROOT = 'http://localhost/flutter_proj/employees.php';
   static const _CREATE_TABLE_ACTION = 'CREATE_TABLE';
